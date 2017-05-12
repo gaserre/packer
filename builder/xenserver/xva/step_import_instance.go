@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mitchellh/multistep"
 	"github.com/hashicorp/packer/packer"
+	"github.com/mitchellh/multistep"
 	xsclient "github.com/xenserver/go-xenserver-client"
 	xscommon "github.com/xenserver/packer-builder-xenserver/builder/xenserver/common"
 )

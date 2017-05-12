@@ -2,8 +2,8 @@ package common
 
 import (
 	"fmt"
-	"github.com/mitchellh/multistep"
 	"github.com/hashicorp/packer/packer"
+	"github.com/mitchellh/multistep"
 	xsclient "github.com/xenserver/go-xenserver-client"
 	"log"
 	"os"

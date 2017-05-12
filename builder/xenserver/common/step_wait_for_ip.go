@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mitchellh/multistep"
 	"github.com/hashicorp/packer/packer"
+	"github.com/mitchellh/multistep"
 	"github.com/nilshell/xmlrpc"
 	xsclient "github.com/xenserver/go-xenserver-client"
 )

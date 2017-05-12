@@ -3,8 +3,8 @@ package common
 /* Taken from https://raw.githubusercontent.com/hashicorp/packer/master/builder/qemu/step_prepare_output_dir.go */
 
 import (
-	"github.com/mitchellh/multistep"
 	"github.com/hashicorp/packer/packer"
+	"github.com/mitchellh/multistep"
 	"log"
 	"os"
 	"time"

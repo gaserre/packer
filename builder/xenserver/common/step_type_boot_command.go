@@ -4,10 +4,10 @@ package common
 
 import (
 	"fmt"
-	"github.com/mitchellh/go-vnc"
-	"github.com/mitchellh/multistep"
 	"github.com/hashicorp/packer/packer"
 	"github.com/hashicorp/packer/template/interpolate"
+	"github.com/mitchellh/go-vnc"
+	"github.com/mitchellh/multistep"
 	"log"
 	"net"
 	"strings"
