@@ -1,11 +1,11 @@
 package common
 
-// Taken from mitchellh/packer/builder/qemu/step_http_server.go
+// Taken from hashicorp/packer/builder/qemu/step_http_server.go
 
 import (
 	"fmt"
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/hashicorp/packer/packer"
 	"log"
 	"net"
 	"net/http"

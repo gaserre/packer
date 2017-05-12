@@ -1,10 +1,10 @@
 package common
 
-/* Taken from https://raw.githubusercontent.com/mitchellh/packer/master/builder/qemu/step_prepare_output_dir.go */
+/* Taken from https://raw.githubusercontent.com/hashicorp/packer/master/builder/qemu/step_prepare_output_dir.go */
 
 import (
 	"github.com/mitchellh/multistep"
-	"github.com/mitchellh/packer/packer"
+	"github.com/hashicorp/packer/packer"
 	"log"
 	"os"
 	"time"
