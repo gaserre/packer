@@ -8,6 +8,7 @@ import (
 	"strings"
 	"time"
 
+	xscommon "github.com/hashicorp/packer/builder/xenserver/common"
 	"github.com/hashicorp/packer/common"
 	"github.com/hashicorp/packer/helper/communicator"
 	hconfig "github.com/hashicorp/packer/helper/config"
@@ -15,7 +16,6 @@ import (
 	"github.com/hashicorp/packer/template/interpolate"
 	"github.com/mitchellh/multistep"
 	xsclient "github.com/xenserver/go-xenserver-client"
-	xscommon "github.com/xenserver/packer-builder-xenserver/builder/xenserver/common"
 )
 
 type config struct {
@@ -60,7 +60,7 @@ func (self *Builder) Prepare(raws ...interface{}) (params []string, retErr error
 	}, raws...)
 
 	if err != nil {
-		packer.MultiErrorAppend(errs, err)
+		errs = packer.MultiErrorAppend(errs, err)
 	}
 
 	errs = packer.MultiErrorAppend(

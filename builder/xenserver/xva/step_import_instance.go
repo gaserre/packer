@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
+	xscommon "github.com/hashicorp/packer/builder/xenserver/common"
 	"github.com/hashicorp/packer/packer"
 	"github.com/mitchellh/multistep"
 	xsclient "github.com/xenserver/go-xenserver-client"
-	xscommon "github.com/xenserver/packer-builder-xenserver/builder/xenserver/common"
 )
 
 type stepImportInstance struct {

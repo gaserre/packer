@@ -176,5 +176,4 @@ func ssh_port_forward(local_listener net.Listener, remote_port uint, remote_dest
 		go forward(local_connection, config, host, remote_dest, remote_port)
 	}
 
-	return nil
 }
